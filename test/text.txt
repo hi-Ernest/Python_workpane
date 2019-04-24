@@ -1,0 +1,96 @@
+ singularity CS SE coder boy man student goodness java optimistic cqut
+dream
+ linked
+ string
+ array
+ matrix
+ tree
+ subtree
+ leaf
+ node
+ depth
+ level
+ parents
+ children brother
+ ancestor
+ descentdant
+ binary tree
+ banlanced binary tree
+ full binary tree
+ complete binary tree
+ traversing binary tree
+ binary sort tree
+ binary search tree
+ threaded binary tree
+ Huffman tree
+ ordered tree
+ preorder
+ inorder
+ postorder
+ stack
+ bottom
+ top
+ push
+ pop
+ queue
+ front
+ rear
+ overflow
+ underflow
+ deque
+
+
+ grabh
+ subgraph
+ digraph
+ undigraph
+ complete
+ connected
+ unconnected
+ strongly connected
+ weakly connected
+ weighted
+ directed acyclic
+ spares
+ dense
+ biconnected
+ bipartite
+ traversing
+
+
+ searching
+linear search
+ binary search
+ block search
+ hash search
+ average search length
+
+
+ internal sort
+
+ insertion
+
+ selection
+ heap
+ quick
+ merge
+ radix
+ balance merging sort
+ balance two-way merging sort
+ ployphase merging sort
+ topological sort
+
+ insertion
+ deletion
+
+ indegree
+ outdegree
+ ordered
+ chr
+ chr chr chr
+ chr
+ chr
+ chr
+ chr
+ chr
+ chr

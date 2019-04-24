@@ -1,0 +1,48 @@
+# -*- coding:utf-8 -*-
+import os
+
+import requests
+
+from homework import geshi, dirname, counter
+
+# file_object = open("text.txt")
+# dict = {}
+# for line in file_object:
+#     line = line.replace(",", " ")
+#     line = line.replace(".", " ")
+#     line = line.replace("!", " ")
+#     line = line.replace("(", " ")
+#     line = line.replace(")", " ")
+#     strs = line.split();
+#     for str in strs:
+#         if dict.has_key(str):
+#             dict[str] += 1
+#         else:
+#             dict[str] = 1
+# result = sorted(dict.items(), key=lambda k: k[1], reverse=True)
+# print result
+
+# title = geshi('xunhao', 'ci', 'pinglv')
+# results = []
+# for i, (w, c) in enumerate(counter.most_common(), 1):
+#     results.append(geshi(i, w, c))
+#
+# writefile = 'ar.txt'
+# wpath = os.path.join(dirname, writefile)
+# with open(wpath, 'w') as f:
+#     f.write(''.join([title] + results))
+
+
+
+URL_GET = "https://wenku.baidu.com/view/9ed32f7ea66e58fafab069dc5022aaea998f41da.html?tdsourcetag=s_pctim_aiomsg&qq-pf-to=pcqq.c2c"
+
+params = {'loc':'108288','day_type':'weekend','type':'exhibition'}
+
+
+response = requests.get(URL_GET,params = params)
+
+print(response.headers)
+#Response Code
+print(response.status_code)
+#Response Body
+print(response.text)
